@@ -11,19 +11,19 @@ a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введи свое второе число - ");
 b = Convert.ToInt32(Console.ReadLine());
  
-bool Chto0 = a > b;
-bool Chto1 = a == b;
-bool Chto2 = a < b;
+bool num0 = a > b;
+bool num1 = a == b;
+bool num2 = a < b;
  
-     if (Chto0)
+     if (num0)
         {
             Console.WriteLine($"Число {a} больше чем {b}, а число {b} меньше чем {a}");
          }
-         else if (Chto1)
+         else if (num1)
          {
              Console.WriteLine($"Числа {a} и {b} равны");
          }
-         else
+         else if (num2)
          {
             Console.WriteLine($"Число {b} больше чем {a}, а число {a} меньше чем {b}");
          }
