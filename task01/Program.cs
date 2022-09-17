@@ -15,4 +15,4 @@ int max = a;
 if (b > max)max = b;
 if (c > max)max = c;
 
- Console.WriteLine($"Число {max} максимальное");
+Console.WriteLine($"Число {max} максимальное");
